@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My_Chat Node Socket.io Chat App</title>
+
+    <!-- from socket io documentation --- a standalone build of the client is exposed by default by the server at /socket.io/socket.io.js -->
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    
     <script src="js/client.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,7 +21,7 @@
     <div class="container">
         <div class="message right"> hey how r u</div>
         <div class="message left"> i am fine , whats about you? </div>
-        
+
     </div>
 
     <div class="send">
