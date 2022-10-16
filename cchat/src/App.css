@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+@media(max-aspect-ratio : 7/10) {
+    .join_page {
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+
+    .join_container {
+        margin-top: 40vw !important;
+        width: 100%;
+    }
+
+    .join_container>img {
+        width: 20vmax !important;
+    }
+
+    .join_container>h1 {
+        color: white;
+        font-size: 6vw !important;
+        font-family: 'Roboto', sans-serif;
+        width: 55vw !important;
+        border-bottom: 0.6vw solid white;
+        /* text-align: center; */
+        padding: 3vw !important;
+        /* box-sizing: border-box; */
+    }
+
+    #join_input {
+        width: 55vw !important;
+        padding: 4vw !important;
+        font-size: 4vw !important;
+        margin: 5vw !important;
+
+    }
+
+    .join_btn {
+        width: 55vw !important;
+        padding: 4vw !important;
+        font-size: 4vw !important;
+        height: 13vw !important;
+
+    }
+
+    /* //chat page  */
+    .chat_container {
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .chat_header {
+
+        height: 10% !important;
+
+    }
+
+    .chat_header>h2 {
+
+        margin: 8vw !important;
+        font-size: 5vw !important;
+    }
+
+    .chat_header>a>img {
+        margin: 6vw !important;
+        margin-right: 5vw !important;
+        padding: 3px;
+        border-radius: 50%;
+        transform: scale(1.3);
+    }
+
+    .chat_header>a {
+        margin-right: 2vw !important;
+    }
+
+    .chat_header>a>img:hover {
+
+        cursor: pointer;
+        transform: rotate(180deg) scale(1.5);
+
+    }
+
+    .chat_box {
+        height: 80% !important;
+    }
+    .input_box {
+        
+        height: 10% !important;
+        
+    }
+
+    #chat_input {
+        width: 80%;
+        border: none;
+        padding: 4vw !important;
+        
+        
+        font-size: 4vw !important;
+    }
+    .message_box {
+        
+        /* width: initial !important; */
+        padding: 2.5vw !important;
+        margin: 3vw !important;
+       
+       font-size: 3.5vw !important;
+        
+    }
+    
+
+}

@@ -1,0 +1,27 @@
+.message_box {
+    background-color: gainsboro;
+    /* width: 40%; */
+    padding: 1vmax;
+    margin: 0.5vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    
+}
+
+.right {
+    float: right;
+    /* background-color: #128C7E; */
+    background-color: #657786;
+    color: white;
+    text-align: right;
+}
+.left {
+    float: left;
+    /* background-color: #128C7E; */
+    /* background-color: #00B2FF; */
+    background-color: #657786;
+    color: white;
+    text-align: left;
+}
